@@ -37,6 +37,7 @@ class ABRAnalyzerFolder:
                         "time": self.time.copy(),
                         "voltage": self.voltage.copy(),
                         "sample_rate": self.sample_rate
+                        "label":float(filename.split("_")[0])
                     }
                     loaded_data.append(file_data)
 
